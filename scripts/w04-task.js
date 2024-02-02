@@ -70,7 +70,7 @@ myProfile.favoriteFoods.forEach(food => {
 myProfile.hobbies.forEach(hobby =>{
     let li = document.createElement('li');
     li.textContent = hobby;
-    document.querySelector('hobbies') .appendChild(li);
+    document.querySelector('#hobbies') .appendChild(li);
 });
 
 
