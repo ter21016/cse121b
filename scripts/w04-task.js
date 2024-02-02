@@ -18,12 +18,8 @@ let myProfile = {
         'Art and Craft',
         'Volunteering'
     ],
-    placesLived: [
-        'Lima, Peru',
-        'Chiclayo, Peru',
-        'Los Angeles, CA',
-        'Seattle, WA',
-    ]
+
+    placesLived: []
 
 };
 
@@ -72,9 +68,9 @@ myProfile.favoriteFoods.forEach(food => {
 
 /* Hobbies List */
 myProfile.hobbies.forEach(hobby =>{
-    let ul = document.createElement('ul');
-    ul.textContent = hobby;
-    document.querySelector('hobbies') .appendChild(ul);
+    let li = document.createElement('li');
+    li.textContent = hobby;
+    document.querySelector('hobbies') .appendChild(li);
 });
 
 
