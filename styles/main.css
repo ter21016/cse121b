@@ -292,6 +292,29 @@ footer {
 .meal-img {
     max-width: 100%; /* Limit image width to its container */
     height: auto; /* Maintain aspect ratio */
+    
+}
+/* Meal container */
+.meal-container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Meal image container */
+.meal-img-container {
+    flex: 0 0 auto; /* Allow container to shrink, but not grow */
+    margin-right: 20px; /* Add space between image and text */
+}
+
+/* Meal image */
+.meal-img {
+    max-width: 100%; /* Limit image width to its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Text information about the meal */
+.meal-info {
+    flex: 1; /* Allow text to grow and fill remaining space */
 }
 
 
