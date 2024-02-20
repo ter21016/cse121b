@@ -279,6 +279,22 @@ footer {
     margin: .5rem;
 }
 
+
+.container {
+    text-align: center; /* Center align contents */
+}
+
+#search-btn {
+    margin-top: 10px; /* Add space above the button */
+}
+
+/* Adjust image size */
+.meal-img {
+    max-width: 100%; /* Limit image width to its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
